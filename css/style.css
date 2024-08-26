@@ -1,0 +1,210 @@
+/* 1. Alteração de fonte */
+.fonte-responsiva {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .fonte-responsiva {
+        font-size: 24px;
+    }
+}
+
+/* 2. Mudança de cor de fundo */
+.fundo-vermelho {
+    background-color: initial;
+}
+
+@media (max-width: 600px) {
+    .fundo-vermelho {
+        background-color: red;
+    }
+}
+
+/* 3. Ocultar elementos */
+.ocultar-imagem {
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .ocultar-imagem {
+        display: none;
+    }
+}
+
+/* 4. Alteração de layout */
+.duas-colunas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .duas-colunas {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 5. Imagem responsiva */
+.imagem-responsiva {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 6. Alteração de largura de botão */
+.botao-responsivo {
+    width: auto;
+}
+
+@media (max-width: 480px) {
+    .botao-responsivo {
+        width: 100%;
+    }
+}
+
+/* 7. Centralizar texto */
+.texto-centralizado {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .texto-centralizado {
+        text-align: center;
+    }
+}
+
+/* 8. Menu de navegação */
+.menu-responsivo ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .menu-responsivo ul {
+        flex-direction: column;
+    }
+}
+
+/* 9. Tamanho de ícones */
+.container-icones img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (min-width: 1024px) {
+    .container-icones img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* 10. Alteração de espaçamento */
+.lista-espacada li {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 1024px) {
+    .lista-espacada li {
+        margin-bottom: 20px;
+    }
+}
+
+/* 11. Alteração de padding */
+.padding-reduzido {
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .padding-reduzido {
+        padding: 10px;
+    }
+}
+
+/* 12. Responsividade de cards */
+.cartoes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cartoes {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cartoes {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* 13. Alteração de altura */
+.cabecalho-responsivo {
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .cabecalho-responsivo {
+        height: 150px;
+    }
+}
+
+/* 14. Alteração de margem */
+.margem-responsiva {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    .margem-responsiva {
+        margin: 20px;
+    }
+}
+
+/* 15. Texto responsivo */
+.cabecalho-responsivo-h2 {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .cabecalho-responsivo-h2 {
+        font-size: 30px;
+    }
+}
+
+/* 16. Alinhamento de itens */
+.container-flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .container-flex {
+        justify-content: center;
+    }
+}
+
+/* 17. Alteração de bordas */
+.borda-ajustada {
+    border: 2px solid black;
+}
+
+@media (min-width: 1024px) {
+    .borda-ajustada {
+        border-width: 5px;
+    }
+}
+
+/* 18. Alteração de display */
+.display-alterado {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .display-alterado {
+        display: flex;
+    }
+}
